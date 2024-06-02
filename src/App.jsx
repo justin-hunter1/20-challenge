@@ -1,7 +1,16 @@
 import Page from "./components/Page";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 function App() {
-  return <Page />;
+
+  return (
+    <>
+      <Header />
+      <Page />
+      <Footer />
+    </>
+  );
 }
 
 export default App;

@@ -1,7 +1,19 @@
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 
-// Here we import bootstrap for access to some additional styling
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+
+
+
+
+// Define the accessible routes, and which components respond to which URL
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App />,
+    }]);
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router} />);
