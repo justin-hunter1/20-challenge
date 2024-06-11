@@ -9,10 +9,10 @@ function Page() {
 					</section>
 					<section id="code-demo">
 						<aside><h2 className="l-column">Work</h2></aside>
-						<a href="https://justin-hunter1.github.io/03-challenge/" className="main-demo"><img src="./assets/pgen.png" /></a>
-						<a href="https://justin-hunter1.github.io/04-challenge/" className="main-demo"><img src="./assets/quiz.png" /></a>
-						<a href="https://justin-hunter1.github.io/anything/" className="demos"><img src="./assets/anything.png" /></a>
-						<a href="https://pindemonium.onrender.com" className="demos"><img src="./assets/pindemonium.png" /></a>
+						<a href="https://justin-hunter1.github.io/03-challenge/" className="main-demo"><img src="/images/pgen.png" /></a>
+						<a href="https://justin-hunter1.github.io/04-challenge/" className="main-demo"><img src="/images/quiz.png" /></a>
+						<a href="https://justin-hunter1.github.io/anything/" className="demos"><img src="/images/anything.png" /></a>
+						<a href="https://pindemonium.onrender.com" className="demos"><img src="/images/pindemonium.png" /></a>
 					</section>
 				</main>
 			</body>
